@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Banner Styling */
+  .banner {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 25px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .container {
+    background-color: #4b4747;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+    .input-box:focus {
+      border-color: #007bff;
+    }
+    
+    .calculate-btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .calculate-btn:hover {
+      background-color: #0056b3;
+    }
+    
+    .calculate-btn:active {
+      background-color: #003f7f;
+    }
+    
+    .result-box {
+      background-color: #d2e0ed;
+      color: #333;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-top: 10px;
+      text-align: center;
+      display: none; /* Initially hidden */
+    }
+    
+    .result-box.show {
+      display: block; /* Show when results are available */
+    }
+  
